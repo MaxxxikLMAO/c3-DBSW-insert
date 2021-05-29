@@ -22,6 +22,7 @@ public class InsertExample {
 
         preparedStatement.executeUpdate();
 
+        preparedStatement.close();
         connection.close();
     }
 
